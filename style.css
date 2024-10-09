@@ -1,0 +1,634 @@
+/* Css Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Global Styling */
+
+/* Css variable */
+
+/* Header section styling */
+#header {
+  /* background-color: red; */
+  width: 100%;
+  height: auto;
+}
+
+#header .container {
+  width: 100%;
+}
+
+#header .container .nav_bar {
+  width: 100%;
+  padding: 1.5rem 0rem;
+  /* background-color: rebeccapurple; */
+}
+#header .container .nav_bar .container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#header .container .nav_bar .container .logo img {
+  width: 100px;
+}
+
+#header .container .nav_bar .container .menu_search i {
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+/* Hero section */
+#header .container .hero_section {
+  width: 100%;
+}
+#header .container .hero_section .container {
+  width: 90%;
+  margin: auto;
+  padding: 3rem 0rem;
+  /* background-color: red; */
+  display: flex;
+}
+#header .container .hero_section .container .card {
+  width: 100%;
+}
+#header .container .hero_section .container h1 {
+  padding: 1rem 0rem;
+  width: 90%;
+  font-size: 3rem;
+  /* background-color: green; */
+  font-weight: 400;
+}
+#header .container .hero_section .container .bold {
+  font-weight: bold;
+}
+#header .container .hero_section .container p {
+  padding: 1rem 0rem;
+  width: 80%;
+  color: grey;
+}
+
+#header .container .hero_section .container button {
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    rgb(233, 37, 164),
+    rgb(205, 147, 13)
+  );
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#header .container .hero_section .container button:hover {
+  background-image: linear-gradient(
+    to left,
+    rgb(233, 37, 164),
+    rgb(205, 147, 13)
+  );
+}
+
+#header .container .hero_section .container .card_2 {
+  background-image: url(./assets/images/hero_slider_1.webp);
+  background-size: 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+}
+
+/* COMPANY FEATURE */
+#feature {
+  width: 100%;
+}
+
+#feature .container {
+  width: 90%;
+  margin: auto;
+  /* background-color: red; */
+  padding: 3rem 0rem;
+}
+
+#feature .container .heading_content {
+  width: 50%;
+  margin: auto;
+  padding: 1rem 0rem;
+  text-align: center;
+}
+
+#feature .container .heading_content h1 {
+  width: 100%;
+  font-weight: 400;
+}
+
+#feature .container .heading_content .bold {
+  font-weight: bold;
+}
+
+#feature .container .card_container {
+  width: 100%;
+  padding: 2rem 0rem;
+  display: flex;
+}
+
+#feature .container .card_container .card {
+  margin: 0.5rem;
+  border: 1px solid rgba(155, 143, 143, 0.136);
+  padding: 1rem 2rem;
+  background-color: rgba(217, 214, 214, 0.071);
+  transition: all 0.9s;
+  border-radius: 0.3rem;
+}
+#feature .container .card_container .card .icon {
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0rem;
+}
+#feature .container .card_container .card i {
+  /* width: 100%; */
+  text-align: center;
+  font-size: 2rem;
+  background-color: red;
+  padding: 1rem;
+  border-radius: 5px;
+}
+#feature .container .card_container .card h2 {
+  text-align: center;
+}
+#feature .container .card_container .card p {
+  text-align: center;
+  padding: 1rem 0rem;
+  color: grey;
+}
+
+#feature .container .card_container .card_1 i {
+  background-color: rgba(41, 41, 173, 0.088);
+  color: rgba(32, 32, 214, 0.779);
+}
+
+#feature .container .card_container .card_1:hover {
+  border: 1px solid rgba(32, 32, 214, 0.779);
+  box-shadow: 0px 0px 100px 10px rgba(128, 128, 128, 0.2);
+  & i {
+    background-color: blue;
+    color: white;
+    transition: all 0.9s;
+  }
+}
+
+#feature .container .card_container .card_2 i {
+  background-color: rgba(255, 68, 0, 0.136);
+  color: orangered;
+}
+
+#feature .container .card_container .card_2:hover {
+  border: 1px solid orangered;
+  box-shadow: 0px 0px 100px 10px rgba(128, 128, 128, 0.2);
+
+  & i {
+    background-color: orangered;
+    color: white;
+    transition: all 0.9s;
+  }
+}
+
+#feature .container .card_container .card_3 i {
+  background-color: rgba(0, 128, 0, 0.125);
+  color: green;
+}
+
+#feature .container .card_container .card_3:hover {
+  border: 1px solid green;
+  box-shadow: 0px 0px 100px 10px rgba(128, 128, 128, 0.2);
+
+  & i {
+    background-color: green;
+    color: white;
+    transition: all 0.9s;
+  }
+}
+
+#feature .container .card_container .card_4 i {
+  background-color: rgba(255, 192, 203, 0.083);
+  color: pink;
+}
+
+#feature .container .card_container .card_4:hover {
+  border: 1px solid pink;
+  box-shadow: 0px 0px 100px 10px rgba(128, 128, 128, 0.2);
+
+  & i {
+    background-color: pink;
+    color: white;
+    transition: all 0.9s;
+  }
+}
+
+/* Advantage section */
+#advantage {
+  width: 100%;
+}
+
+#advantage .container {
+  /* background-color: red; */
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#advantage .container .card {
+  width: 100%;
+  padding: 2rem;
+  /* background-color: green; */
+  margin: 1rem;
+}
+
+#advantage .container .card img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+#advantage .container .card i {
+  color: palevioletred;
+  font-size: 2rem;
+}
+
+#advantage .container .card h1 {
+  padding: 1rem 0rem;
+  font-weight: 400;
+}
+
+#advantage .container .card .bold {
+  font-weight: bold;
+}
+#advantage .container .card h3 {
+  color: palevioletred;
+  padding: 0.5rem 0rem;
+  font-weight: 400;
+}
+#advantage .container .card p {
+  padding: 0.2rem 0rem;
+}
+
+#advantage .container .card button {
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    rgb(233, 37, 164),
+    rgb(205, 147, 13)
+  );
+  cursor: pointer;
+  font-weight: bold;
+  margin: 1rem 0rem;
+}
+
+#advantage .container .card button:hover {
+  background-image: linear-gradient(
+    to left,
+    rgb(233, 37, 164),
+    rgb(205, 147, 13)
+  );
+}
+
+/* Solution section */
+#solution {
+  width: 100%;
+}
+
+#solution .container {
+  width: 90%;
+  padding: 2rem 0rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+}
+#solution .container .card {
+  width: 100%;
+  padding: 1rem;
+  /* background-color: green; */
+  margin: 1rem;
+}
+#solution .container .card img {
+  width: 100%;
+}
+#solution .container .card i {
+  font-size: 2rem;
+}
+
+#solution .container .card h1 {
+  padding: 1rem 0rem;
+  font-weight: 400;
+}
+
+#solution .container .card .bold {
+  font-weight: bold;
+}
+
+#solution .container .card p {
+  padding: 0.2rem 0rem;
+}
+
+#solution .container .card .grey_color {
+  color: grey;
+  padding: 1rem 0rem;
+  font-weight: 400;
+}
+
+#solution .container .card .bold_font {
+  font-weight: bold;
+}
+
+#solution .container .card .progress_bar {
+  width: 100%;
+  height: 10px;
+  background-color: rgba(128, 128, 128, 0.145);
+  border-radius: 1rem;
+}
+
+#solution .container .card .progress_bar .fill_1 {
+  width: 77%;
+  height: 10px;
+  background-color: orangered;
+  border-radius: 1rem;
+}
+#solution .container .card .progress_bar .fill_2 {
+  width: 89%;
+  height: 10px;
+  background-color: orangered;
+  border-radius: 1rem;
+}
+
+#solution .container .card .sub_card {
+  padding: 1rem 0rem;
+}
+
+#solution .container .card button {
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    rgb(233, 37, 164),
+    rgb(205, 147, 13)
+  );
+  cursor: pointer;
+  font-weight: bold;
+  margin: 1rem 0rem;
+}
+
+#solution .container .card button:hover {
+  background-image: linear-gradient(
+    to left,
+    rgb(233, 37, 164),
+    rgb(205, 147, 13)
+  );
+}
+
+/* Projects section */
+#project {
+  width: 100%;
+}
+
+#project .container {
+  width: 90%;
+  margin: auto;
+  /* background-color: red; */
+}
+
+#project .container .project_heading {
+  width: 50%;
+  margin: auto;
+  /* background-color: red; */
+}
+
+#project .container .project_heading h1 {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  font-weight: 400;
+  /* background-color: green; */
+}
+
+#project .container .project_heading .bold {
+  font-weight: bold;
+}
+
+#project .container .project_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0rem;
+}
+
+#project .container .project_container .card {
+  width: 100%;
+  height: 400px;
+  margin: 0.5rem;
+  background-color: green;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+#project .container .project_container .card_1 {
+  background-image: url(./assets/images/project_1.webp);
+  background-size: cover;
+}
+#project .container .project_container .card_2 {
+  background-image: url(./assets/images/project_2.webp);
+  background-size: cover;
+}
+#project .container .project_container .card_3 {
+  background-image: url(./assets/images/project_3.webp);
+  background-size: cover;
+}
+
+/* Pricing section */
+#pricing {
+  width: 100%;
+  background-image: url(./assets/images/pricing_bg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-color: red; */
+  background-color: #f8f4f0;
+}
+
+#pricing .container {
+  width: 90%;
+  /* background-color: red; */
+  margin: auto;
+  padding: 2rem 0rem;
+}
+
+#pricing .container .pricing_heading {
+  width: 50%;
+  margin: auto;
+}
+
+#pricing .container .pricing_heading h1 {
+  text-align: center;
+  font-weight: 400;
+}
+
+#pricing .container .pricing_heading .bold {
+  font-weight: bold;
+}
+
+#pricing .container .card_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0rem;
+}
+
+#pricing .container .card_container .card {
+  width: 100%;
+  background-color: white;
+  margin: 0.5rem;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  transition: all 0.5s;
+}
+
+#pricing .container .card_container .card .orange_color {
+  color: orange;
+  font-weight: bold;
+  padding: 1rem 0rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.275);
+}
+
+#pricing .container .card_container .card .feature {
+  padding: 0.5rem 0rem;
+  color: grey;
+}
+
+#pricing .container .card_container .card button {
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    rgb(233, 37, 164),
+    rgb(205, 147, 13)
+  );
+  cursor: pointer;
+  font-weight: bold;
+  margin: 1rem 0rem;
+}
+
+#pricing .container .card_container .card button:hover {
+  background-image: linear-gradient(
+    to left,
+    rgb(233, 37, 164),
+    rgb(205, 147, 13)
+  );
+}
+
+#pricing .container .card_container .card .no_hidden_charges {
+  color: grey;
+  font-weight: 300;
+}
+
+#pricing .container .card_container .card:hover {
+  background-color: black;
+  & h1 {
+    color: white;
+  }
+}
+
+/* Footer section */
+#footer {
+  width: 100%;
+
+  background-image: url(./assets/images/pricing_bg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #2a2833;
+}
+
+#footer .container {
+  width: 90%;
+  margin: auto;
+  /* background-color: red; */
+}
+
+#footer .container .card_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+#footer .container .card_container .card {
+  width: 100%;
+  padding: 1rem;
+}
+
+#footer .container .card_container .card img {
+  width: 100px;
+}
+
+#footer .container .card_container .card p {
+  padding: 0.3rem 0rem;
+  color: grey;
+}
+
+#footer .container .card_container .card h4 {
+  color: white;
+  padding: 1rem 0rem;
+}
+
+#footer .container .card_container .card .icon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer .container .card_container .card .icon i {
+  font-size: 1rem;
+  color: white;
+  background-color: black;
+  padding: 1rem;
+  margin: 0.2rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* copyright section */
+#copyright {
+  width: 100%;
+  padding: 2rem;
+}
+
+#copyright .container {
+  width: 90%;
+  margin: auto;
+}
+
+#copyright .container p {
+  text-align: center;
+}
